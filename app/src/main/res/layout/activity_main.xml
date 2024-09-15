@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="0dp">
+
+    <!-- Layout Verde -->
+    <LinearLayout
+        android:id="@+id/verdeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#006847">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="#FFFF00" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:background="#FFFF00" />
+
+    </LinearLayout>
+
+    <!-- Layout Blanco con imagen -->
+    <LinearLayout
+        android:id="@+id/blancoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:background="#FFFF00" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:background="#FFFF00" />
+
+        <ImageView
+            android:id="@+id/centroImagen"
+            android:layout_width="175dp"
+            android:layout_height="155dp"
+            android:rotation="90"
+            android:src="@drawable/escudo" />
+
+    </LinearLayout>
+
+    <!-- Layout Rojo -->
+    <LinearLayout
+        android:id="@+id/rojoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#CE1126">
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="260dp"
+            android:background="#FFFF00" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:background="#FFFF00" />
+
+    </LinearLayout>
+</LinearLayout>
